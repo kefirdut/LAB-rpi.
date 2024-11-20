@@ -1,0 +1,15 @@
+.task-element {
+    background: linear-gradient(135deg, #f9f9f9, #ffffff);
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .task-element:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
