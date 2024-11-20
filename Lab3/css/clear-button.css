@@ -1,0 +1,16 @@
+.clear-button {
+  background: linear-gradient(135deg, #e74c3c, #c0392b);
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 24px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 15px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.clear-button:hover {
+  background-color: #a52620;
+  transform: scale(1.05);
+}
