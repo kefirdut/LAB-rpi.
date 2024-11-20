@@ -1,0 +1,20 @@
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  background: linear-gradient(to bottom, #e9f1fb, #dbe9f9);
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.header {
+  background: linear-gradient(135deg, #2eb6f0, #1558b0);
+  color: white;
+  padding: 25px;
+  text-align: left;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 24px;
+}
