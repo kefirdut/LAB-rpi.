@@ -1,0 +1,13 @@
+.task-column ul li {
+    background: linear-gradient(135deg, #f4f4f9, #ffffff);
+    padding: 10px;
+    border-radius: 4px;
+    text-align: center;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.task-column ul li:hover {
+    transform: translateY(-2px);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
