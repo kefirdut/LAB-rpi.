@@ -1,0 +1,71 @@
+.task-board {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+
+.task-column {
+  background-color: #4a90e2;
+  padding: 35px;
+  border-radius: 32px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  width: 95%;
+  margin: 0 auto;
+}
+
+.task-column h3 {
+  text-align: center;
+  padding: 10px;
+  margin: 0 0 20px 0;
+  font-size: 1.2em;
+  color: white;
+  border-radius: 4px;
+}
+
+.backlog h3 {
+  background-color: #686868;
+}
+
+.inProgress h3 {
+  background-color: #eac54d;
+}
+
+.done h3 {
+  background-color: #28a458;
+}
+
+.trash h3 {
+  background-color: #d82d60;
+}
+
+@media (min-width: 768px) {
+  .task-board {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  .task-column {
+    width: 23%;
+  }
+}
+
+.loader {
+  width: 60px;
+  height: 60px;
+  border: 5px solid #fff;
+  border-bottom-color: #ff3d00;
+  border-radius: 50%;
+  margin: 60px auto;
+  animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
